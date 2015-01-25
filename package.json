@@ -1,0 +1,20 @@
+{
+  "name": "vtrain",
+  "version": "1.0.0",
+  "description": "Owned by HoneyJade Inc.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha && node app.js",
+    "units": "mocha",
+    "testServer": "node test/testServer.js"
+  },
+  "author": "Vimukthi Weerasiri <vimukthiweerasiri@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.0.6"
+  }
+}
